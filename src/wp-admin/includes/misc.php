@@ -563,7 +563,7 @@ function wp_print_plugin_file_tree( $tree, $label = '', $level = 2, $size = 1, $
  * @param string $old_value
  * @param string $value
  */
-function update_home_siteurl( $old_value, $value ) {
+function update_home_siteurl() {
 	if ( wp_installing() ) {
 		return;
 	}
